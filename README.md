@@ -1,4 +1,4 @@
-<h1>mySOC-roadmap</h1>
+<h1>my roadmap</h1>
 
 Notes, write-ups, and job-simulation reports documenting my journey from an IT background to aspiring SOC (Security Operations Center) analyst.
 
