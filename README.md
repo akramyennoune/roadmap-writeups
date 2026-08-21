@@ -33,15 +33,16 @@ I'm Akram Yennoune — an aspiring SOC analyst learning cybersecurity from the g
 - [Commonwealth Bank – Introduction to Cybersecurity](./job-simulations/commonwealth-bank-cybersecurity-simulation.md)
 - [Mastercard – Cybersecurity Job Simulation](./job-simulations/mastercard-cybersecurity-simulation.md)
 
-## 🏆 Certifications & Milestones
+##  Certifications & Milestones
 
-- ✅ TryHackMe — Pre Security Path (SEC0 certificate)
-- 🔄 TryHackMe — Cyber Security 101 Path (in progress)
-- 🔄 Google Cybersecurity Professional Certificate (2 of 8 courses completed)
+-  TryHackMe — Pre Security Path (SEC0 certificate)
+-  TryHackMe — SOC Level 1 path (in progress)
+-  Google Cybersecurity Professional Certificate (2 of 8 courses completed)
+-  Security+ planned on november/december
 
 ## 🎯 Current Goals
 
-- Finish the TryHackMe Cyber Security 101 path
+- Finish the TryHackMe SOC Level 1 path
 - Complete all courses in the Google Cybersecurity Professional Certificate
 - Build a home SOC lab (Security Onion / Splunk Free)
 - Begin CompTIA Security+ prep
