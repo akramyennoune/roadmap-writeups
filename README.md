@@ -16,7 +16,7 @@ I'm Akram Yennoune — an aspiring SOC analyst learning cybersecurity from the g
 
 ### Notes
 - [TryHackMe – Pre Security Path](./notes/pre-security-path.md) ✅
-- [TryHackMe – Cyber Security 101 Path](./notes/cyber-101-path.md) 🔄
+- [TryHackMe –SOC Analyst Level 1 Path](./notes/soc-level-1.md) 🔄
 - [Google Cybersecurity Certificate – Course 1: Foundations of Cybersecurity](./notes/google-cert-course-1-foundations.md) ✅
 - [Google Cybersecurity Certificate – Course 2: Manage Security Risks](./notes/google-cert-course-2-risk-management.md) ✅
 - [Google Cybersecurity Certificate – Course 3: Networks and Network Security](./notes/google-cert-course3.md) ✅
