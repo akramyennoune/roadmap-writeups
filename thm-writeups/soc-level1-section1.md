@@ -82,3 +82,4 @@ THM{until-we-meet-again}
 - **SOC Engineer:** keeps the tooling itself running (SIEM infrastructure, storage, ingestion) — an "ops" role behind the analysts.
 - **Threat Researcher:** tracks specific threat actors/groups (TTPs, campaigns) like FIN7, feeding intel back to the rest of the team.
 
+
