@@ -10,16 +10,11 @@ I'm Akram Yennoune — an aspiring SOC analyst learning cybersecurity from the g
 
 | Folder | Contents |
 |---|---|
-| [`notes/`](./notes) | Course notes from TryHackMe and the Google Cybersecurity Professional Certificate |
-| [`thm-writeups/`](./thm-writeups) | Room-by-room write-ups from TryHackMe practical exercises |
-| [`job-simulations/`](./job-simulations) | Reports from Forage job simulations at real companies |
 
-### Notes
-- [TryHackMe – Pre Security Path](./notes/pre-security-path.md) ✅
-- [TryHackMe –SOC Analyst Level 1 Path](./notes/soc-level-1.md) 🔄
-- [Google Cybersecurity Certificate – Course 1: Foundations of Cybersecurity](./notes/google-cert-course-1-foundations.md) ✅
-- [Google Cybersecurity Certificate – Course 2: Manage Security Risks](./notes/google-cert-course-2-risk-management.md) ✅
-- [Google Cybersecurity Certificate – Course 3: Networks and Network Security](./notes/google-cert-course3.md) ✅
+| [`thm-writeups/`](./thm-writeups) | Room-by-room write-ups from TryHackMe practical exercises |
+
+
+
 
 ### TryHackMe Write-ups
 - [Nmap Basics](./thm-writeups/nmap-basics.md)
@@ -28,16 +23,12 @@ I'm Akram Yennoune — an aspiring SOC analyst learning cybersecurity from the g
 - [defensive-security](./thm-writeups/defensive-security.md)
 - [incident-response](./thm-writeups/incident-response.md)
 
-  
-### Job Simulations
-- [Commonwealth Bank – Introduction to Cybersecurity](./job-simulations/commonwealth-bank-cybersecurity-simulation.md)
-- [Mastercard – Cybersecurity Job Simulation](./job-simulations/mastercard-cybersecurity-simulation.md)
-
+ 
 ##  Certifications & Milestones
 
 -  TryHackMe — Pre Security Path (SEC0 certificate)
 -  TryHackMe — SOC Level 1 path (in progress)
--  Google Cybersecurity Professional Certificate (2 of 8 courses completed)
+-  Google Cybersecurity Professional Certificate (4 of 8 courses completed)
 -  Security+ planned on november/december
 
 ## 🎯 Current Goals
@@ -48,17 +39,14 @@ I'm Akram Yennoune — an aspiring SOC analyst learning cybersecurity from the g
 - Begin CompTIA Security+ prep
 - Publish a first CTF write-up
 
-## 🛠 Tech / Tools
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Splunk](https://img.shields.io/badge/Splunk-000000?style=for-the-badge&logo=splunk&logoColor=white) ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white)
 
 ## 📫 Contact
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akram-yennoune-9b8045417/) [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yennakram9@gmail.com) [![TryHackMe](https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Akrammmm)
 
 
-# 💻 Tech Stack:
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white)
+
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.shion.dev/api?username=akramyennoune&theme=midnight-purple&hide_border=false&include_all_commits=true&count_private=false)<br/>
 ![](https://streak-stats.demolab.com/?user=akramyennoune&theme=midnight-purple&hide_border=false)<br/>
@@ -68,6 +56,6 @@ I'm Akram Yennoune — an aspiring SOC analyst learning cybersecurity from the g
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
 ---
-[![](https://komarev.com/ghpvc/?username=akramyennoune&icon=0&color=0)](https://visitcount.itsvg.in)
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
