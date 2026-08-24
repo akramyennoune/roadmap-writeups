@@ -8,7 +8,8 @@ These two rooms sit under the SOC Level 1 path and work as a pair. Alert Triage 
 
 The SIEM shows a running list of alerts with time, name, severity, status, verdict, and assignee. At the start of the room the queue looks like this, with most alerts still awaiting action:
 
-<img width="1348" height="598" alt="soc19" src="https://github.com/user-attachments/assets/f7f20762-b5bb-4526-86db-037d7ac519ce" /
+<img width="1348" height="598" alt="soc19" src="https://github.com/user-attachments/assets/e9165ed8-ab89-4631-bd13-df707689fb35" />
+
 
 Five alerts, ranging from Low to Critical severity. Two are already closed with a verdict, three are unassigned and waiting.
 
