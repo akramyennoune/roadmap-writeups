@@ -17,8 +17,8 @@ I'm Akram Yennoune — an aspiring SOC analyst learning cybersecurity from the g
 
 
 ### TryHackMe Write-ups
-- [Nmap Basics](./thm-writeups/nmap-basics.md)
-- [Wireshark: The Basics](./thm-writeups/wireshark-basics.md)
+- [soc-level1-section1](./thm-writeups/soc-level1-section1.md)
+- [soc-level1-section1](./thm-writeups/soc-level1-section2.md)
 - [John the ripper basics](./thm-writeups/johntheripper.md)
 - [defensive-security](./thm-writeups/defensive-security.md)
 - [incident-response](./thm-writeups/incident-response.md)
