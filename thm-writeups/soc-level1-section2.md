@@ -63,3 +63,58 @@ This one got reassigned to an L2 analyst, kept as a true positive, and closed ou
 ## Takeaways
 
 The two rooms together cover the full lifecycle of an alert: pick it up, investigate it, decide if it's real, document the decision, and either close it or hand it off. What stood out most was how much of the job is process and documentation rather than pure technical analysis. A correct verdict with no comment or a badly assigned alert is still a problem in a real SOC, since other analysts and auditors rely on that trail. Writing a clear analyst comment that explains the "why" behind a verdict, not just the "what," is the habit this room is really trying to build.
+
+# SOC Metrics and Objectives — Notes
+
+Part of the SOC Level 1 path on TryHackMe. This room is about how a SOC actually measures whether it's doing its job, not just theory for theory's sake. Writing this up mostly so I remember it later and so I have something to point to when I'm prepping for interviews.
+
+## Why metrics even matter here
+
+A SOC's whole job is to protect confidentiality, integrity, and availability. But "we protect the company" isn't something you can put on a dashboard. You need numbers that tell you if the team is actually catching things fast enough, or if alerts are just piling up while real threats slip through.
+
+The room makes a point early on that zero alerts for a month is not a good sign. It usually means detection is broken, not that nothing happened. That reframed how I think about alert volume — low numbers aren't automatically a win.
+
+## The core detection and response metrics
+
+These are the four that come up constantly in SOC work:
+
+- **MTTD (Mean Time to Detect)** — how long between something bad happening and the SOC actually noticing it.
+- **MTTA (Mean Time to Acknowledge)** — how long between the alert firing and an analyst picking it up.
+- **MTTR (Mean Time to Respond/Resolve)** — how long from acknowledgment to the incident actually being contained or closed out.
+- **False Positive Rate** — the percentage of alerts that turn out to be noise instead of real threats.
+
+The order matters. Detection has to happen before acknowledgment, which has to happen before response. If any one of these is slow, it drags the whole timeline out, and that timeline is usually what's in the SLA with the client or the business.
+
+## False Positive Rate is the one that quietly kills teams
+
+This was the part that stuck with me the most. A high false positive rate doesn't just waste time — it trains analysts to stop trusting alerts. Once that happens, real threats start getting triaged with the same lazy attention as the noise, and that's how things get missed.
+
+The room frames 80% false positives as a rough ceiling you don't want to cross. Past that point the alert pipeline is basically broken and needs tuning, not just more analysts.
+
+## SLA ties it all together
+
+An SLA (Service Level Agreement) is usually where these metrics get formalized — especially in managed SOC setups where you're reporting numbers back to a client. If your SLA says critical alerts get acknowledged within an hour, MTTA is the number that proves whether you're holding up your end.
+
+Working hours matter here too. If the team works 8/5 and a critical alert lands over the weekend, the clock on acknowledgment effectively doesn't start until the next business day. That's an important detail for on-call planning — coverage gaps show up directly in your metrics whether you like it or not.
+
+## In-house vs managed SOC
+
+Quick distinction worth remembering:
+
+- **In-house SOC** — the security team is part of the organization itself. Metrics stay internal, used for continuous improvement.
+- **Managed SOC (MSSP)** — a third party runs security operations for the client. Metrics become contractual — they're literally what the client is paying for and checking against.
+
+This changes the stakes on getting metrics right. In an MSSP, a bad MTTR isn't just an internal problem, it can be a contract problem.
+
+## What an L1 analyst can actually control
+
+As an L1, you're not setting SOC-wide policy, but you do influence these numbers directly:
+
+- Acknowledging alerts promptly instead of letting the queue sit
+- Documenting clearly so escalation to L2 doesn't add unnecessary delay
+- Flagging patterns of false positives instead of just dismissing them one by one — that feedback is what gets rules tuned
+- Not treating alert triage as a checkbox exercise, since sloppy triage inflates both MTTR and the false positive rate over time
+
+## Takeaway
+
+Metrics aren't just something management looks at in a quarterly review. They're a feedback loop. Slow detection, slow acknowledgment, or a noisy alert pipeline all show up as numbers, and those numbers are what get used to justify more staff, better tooling, or process changes. Understanding them as an L1 means understanding what you're actually being measured against, not just what tickets you're closing.
