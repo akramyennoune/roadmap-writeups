@@ -17,9 +17,11 @@ I'm Akram Yennoune — an aspiring SOC analyst learning cybersecurity from the g
 
 
 ### TryHackMe Write-ups
-- [soc-level1-section1](./thm-writeups/soc-level1-section1.md)
-- [soc-level1-section2](./thm-writeups/soc-level1-section2.md)
+- [Blue Team INTRO](./thm-writeups/Blue-team-intro.md)
+- [SOC team internals](./thm-writeups/SOC-team-internals.md)
 - [John the ripper basics](./thm-writeups/johntheripper.md)
+- [CORE SOC solutions](./thm-writeups/core-SOC-solutions.md)
+-
 - [defensive-security](./thm-writeups/defensive-security.md)
 - [incident-response](./thm-writeups/incident-response.md)
 
