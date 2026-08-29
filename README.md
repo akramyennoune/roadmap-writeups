@@ -21,7 +21,6 @@ I'm Akram Yennoune — an aspiring SOC analyst learning cybersecurity from the g
 - [SOC team internals](./thm-writeups/SOC-team-internals.md)
 - [John the ripper basics](./thm-writeups/johntheripper.md)
 - [CORE SOC solutions](./thm-writeups/core-SOC-solutions.md)
--
 - [defensive-security](./thm-writeups/defensive-security.md)
 - [incident-response](./thm-writeups/incident-response.md)
 
