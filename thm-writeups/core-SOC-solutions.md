@@ -34,6 +34,7 @@ Widening the time range picker to **Dec 31, 2021 → Feb 2, 2022** expands the s
 
 <img width="443" height="29" alt="elk2" src="https://github.com/user-attachments/assets/85f71cd2-a4e6-4841-9a6b-21eb68442da4" />
 
+
 With this range applied, the index returned **2,861 hits** — the full pool of VPN connection events available for analysis.
 
 ### 3. Identifying frequent values with field statistics
@@ -48,10 +49,12 @@ Kibana's field statistics panel makes it easy to spot which values dominate a fi
 | 64.171.101.56 | 2.6% |
 | 107.14.4.82 | 2.6% |
 
+
 ![Top 5 Source_ip values](images/elk4.PNG)<img width="236" height="196" alt="elk4" src="https://github.com/user-attachments/assets/ec88e221-6cb0-41fd-8c65-2a4c8d98b805" />
 
 
 The same panel was used on **UserName**, showing which accounts generated the most VPN activity:
+
 
 | Username | % of records |
 |---|---|
@@ -60,6 +63,7 @@ The same panel was used on **UserName**, showing which accounts generated the mo
 | Katie Green | 2.8% |
 | Kate Wistle | 2.8% |
 | Emanda | 2.6% |
+
 
 ![Top 5 UserName values](images/elk5.PNG)<img width="249" height="223" alt="elk5" src="https://github.com/user-attachments/assets/d74102f9-a20c-43f6-9c10-afb63353e3cd" />
 
