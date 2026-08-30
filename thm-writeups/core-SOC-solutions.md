@@ -23,7 +23,8 @@ This room covers how SOC analysts use the Elastic Stack (ELK) — Elasticsearch,
 
 The dataset used throughout the room is a `vpn_connections` index containing VPN log fields such as `action`, `Company`, `EventTime`, `port`, `protocol`, `Source_Country`, `Source_ip`, `source_state`, and `UserName`.
 
-<img width="1355" height="640" alt="elk1" src="https://github.com/user-attachments/assets/5d000627-143c-4bbb-a49b-485fecb56ff5" />
+<img width="443" height="29" alt="elk2" src="https://github.com/user-attachments/assets/43e19097-6b64-4909-84d1-2156474f95a0" />
+
 
 With the default view, the index returned **1,280 hits** over the selected window (Jan 17 – Feb 1, 2022), with each document showing a VPN action (e.g. `teardown`), the source IP/country/state, the connecting user, and the port/protocol used (TCP/443).
 
